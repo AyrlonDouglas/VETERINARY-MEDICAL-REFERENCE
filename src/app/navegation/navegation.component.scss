@@ -1,0 +1,19 @@
+@import "../../styles.scss";
+
+.navegation {
+    background-color: rgb(236, 236, 236);
+
+    &__list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        height: 50px;
+    }
+    &__link {
+        text-decoration: none;
+        color: $color-primary;
+    }
+}
